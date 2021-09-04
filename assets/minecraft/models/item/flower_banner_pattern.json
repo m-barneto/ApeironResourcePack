@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/flower_banner_pattern"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 1 }, "model": "item/flower_banner_pattern/common" },
+        { "predicate": { "custom_model_data": 2 }, "model": "item/flower_banner_pattern/uncommon" },
+        { "predicate": { "custom_model_data": 3 }, "model": "item/flower_banner_pattern/rare" }
+    ]
+}
