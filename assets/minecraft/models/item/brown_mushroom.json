@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/brown_mushroom"
+  },
+  "overrides": [
+	{ "predicate": { "custom_model_data": 1 }, "model": "item/brown_mushroom/infected_brown_fungus" }
+  ]
+}
